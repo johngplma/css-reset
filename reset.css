@@ -11,10 +11,6 @@
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body {
-  -webkit-font-smoothing: antialiased;
-}
-
 img,
 video,
 svg {
@@ -29,6 +25,19 @@ select {
   font: inherit;
 }
 
+input {
+  width: 100%;
+}
+
+button,
+a {
+  color: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 p,
 h1,
 h2,
@@ -37,4 +46,18 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: min(1160px, 100% - 2.5rem);
+  margin-inline: auto;
 }
